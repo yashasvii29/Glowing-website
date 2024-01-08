@@ -578,110 +578,77 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
-.sticky {
-  position: sticky;
-}
-
-.m-4 {
-  margin: 1rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.mx-7 {
-  margin-left: 1.75rem;
-  margin-right: 1.75rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
-}
-
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.mr-2\.5 {
-  margin-right: 0.625rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.ml-6 {
-  margin-left: 1.5rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-12 {
-  margin-left: 3rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
 }
 
 .ml-24 {
   margin-left: 6rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .mr-8 {
   margin-right: 2rem;
 }
 
-.mr-4 {
-  margin-right: 1rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .inline-block {
@@ -696,24 +663,44 @@ video {
   min-height: 100vh;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-3\/6 {
+  width: 50%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .min-w-full {
   min-width: 100%;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .flex-1 {
   flex: 1 1 0%;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-around {
@@ -724,38 +711,32 @@ video {
   justify-content: space-evenly;
 }
 
-.justify-items-center {
-  justify-items: center;
-}
-
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded {
   border-radius: 0.25rem;
 }
 
-.border {
-  border-width: 1px;
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border-2 {
   border-width: 2px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
-}
-
-.border-transparent {
-  border-color: transparent;
 }
 
 .border-black {
@@ -763,14 +744,9 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-gray-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(243 244 246 / var(--tw-border-opacity));
-}
-
-.bg-gray-400 {
+.bg-gray-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .bg-gray-300 {
@@ -778,21 +754,9 @@ video {
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
-.bg-gray-100 {
+.bg-gray-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'https\:\/\/th\.bing\.com\/th\/id\/OIP\.a8I3-N_JY1jPb2Kzwr4iHAHaEo\?w\=240\&h\=180\&c\=7\&r\=0\&o\=5\&dpr\=1\.3\&pid\=1\.7\'\)\] {
-  background-image: url('https://th.bing.com/th/id/OIP.a8I3-N_JY1jPb2Kzwr4iHAHaEo?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
-}
-
-.bg-\[url\(\'https\:\/\/media\.istockphoto\.com\/id\/1354869673\/photo\/cosmetic-skin-care-products-with-with-flowers-on-green-background-flat-lay-copy-space\.jpg\?s\=1024x1024\&w\=is\&k\=20\&c\=Pm6WEN1hYkqdbbNScc-smjMyep80Z89MLJuZyHGs44g\=\'\)\] {
-  background-image: url('https://media.istockphoto.com/id/1354869673/photo/cosmetic-skin-care-products-with-with-flowers-on-green-background-flat-lay-copy-space.jpg?s=1024x1024&w=is&k=20&c=Pm6WEN1hYkqdbbNScc-smjMyep80Z89MLJuZyHGs44g=');
-}
-
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/media\.istockphoto\.com\/id\/1351664353\/photo\/cosmetic-skin-care-products-with-flowers-on-pastel-beige-background-flat-lay-copy-space\.jpg\?s\=1024x1024\&w\=is\&k\=20\&c\=wUuV9vYrBVj0ssqqlzGDpaEN2vebC0V6-MtL9HPg_PM\=\'\)\] {
@@ -811,50 +775,8 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.px-0\.5 {
-  padding-left: 0.125rem;
-  padding-right: 0.125rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .px-12 {
@@ -862,30 +784,28 @@ video {
   padding-right: 3rem;
 }
 
-.px-28 {
-  padding-left: 7rem;
-  padding-right: 7rem;
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pl-2 {
   padding-left: 0.5rem;
-}
-
-.pl-2\.5 {
-  padding-left: 0.625rem;
-}
-
-.pl-1 {
-  padding-left: 0.25rem;
 }
 
 .pt-2 {
@@ -894,6 +814,14 @@ video {
 
 .pt-44 {
   padding-top: 11rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
@@ -905,64 +833,79 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.leading-3 {
-  line-height: .75rem;
+.font-semibold {
+  font-weight: 600;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
 
-.hover\:border-b:hover {
-  border-bottom-width: 1px;
-}
-
 .hover\:font-bold:hover {
   font-weight: 700;
-}
-
-.hover\:leading-none:hover {
-  line-height: 1;
-}
-
-.hover\:leading-tight:hover {
-  line-height: 1.25;
-}
-
-.hover\:leading-loose:hover {
-  line-height: 2;
 }
 
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
 
-.hover\:underline-offset-2:hover {
-  text-underline-offset: 2px;
-}
-
 .hover\:underline-offset-4:hover {
   text-underline-offset: 4px;
-}
-
-.hover\:underline-offset-1:hover {
-  text-underline-offset: 1px;
 }
